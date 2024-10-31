@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Rules and Regulations</title>
+    <title>Prospectus - Royal Armies Academy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <div class="header_all">
+        <div class="motto">
+            <p>Royal Armies Academy </p>
+        </div>
+        <div class="social_media">
+            <a href="https://web.facebook.com/IBMandJ" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="navbar_all">
+        <a href="index.html">
+            <div class="logo">
+    
+            </div>
+        </a>
+        <div class="nav_links">
+          <a href="index.html">Home</a>
+          <a href="house_masters.html">Meet House Masters</a>
+          <a href="rules.html">Rules & regulations</a>
+          <a href="prospectus.html">Prospectus</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+    
+    
+        <button id="toggleButton">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="mobile">
+            <a href="index.html">Home</a>
+            <a href="house_masters.html">Meet House Masters</a>
+            <a href="rules.html">Rules & regulations</a>
+            <a href="prospectus.html">Prospectus</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +233 24 123 4567</p>
+            <p><strong>Email:</strong> info@example.com</p>
+            <p><strong>Address:</strong> 123 School Road, Accra, Ghana</p>
+        </div>
+
+        <form onsubmit="sendEmail(event)">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <script src="./js/navbar.js"></script>
+</body>
+</html>
